@@ -37,4 +37,4 @@ Ensure you have the following installed:
 ### Installation  
 1. Clone this repository:  
    ```bash  
-   git clone https://github.com/your-username/your-repo-name.git  
+   https://github.com/Jamal3bsalam/MVC-Project.git 
