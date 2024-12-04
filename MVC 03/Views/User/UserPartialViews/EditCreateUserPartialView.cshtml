@@ -1,0 +1,20 @@
+﻿@model UserViewModel
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<div class="form-group">
+    <label asp-for="FirstName" class="col-form-label">Name</label>
+    <input asp-for="FirstName" type="text" class="form-control" />
+    <span asp-validation-for="FirstName" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="LastName" class="col-form-labe">Age</label>
+    <input asp-for="LastName" type="text" class="form-control" />
+    <span asp-validation-for="LastName" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label asp-for="Email" class="col-form-labe">Email</label>
+    <input asp-for="Email" type="text" class="form-control" />
+    <span asp-validation-for="Email" class="text-danger"></span>
+</div>
